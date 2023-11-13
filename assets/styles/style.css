@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: url(/assets/img/winter-mountains-lake-landscape-uhd-4k-wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(2px);
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+
+    height: 100vh;
+}
+
+.container{
+    background-color: white;
+    box-shadow: 2px 5px 40px black;
+    border-radius: 20px;
+    width: 40rem;
+    height: 30rem;
+}
+
+.container h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.nav-icons{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-icons i{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
+    transition: 0.7s;
+}
+
+.nav-icons i:hover{
+    background-color: rgb(173, 198, 255);
+}
+
+.form-container input{
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 20rem;
+    height: 2rem;
+    margin: 1px 3px;
+}
+.form-container form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.form-container button{
+    border: none;
+    background-color: rgb(173, 198, 255);
+    color: black;
+    font-weight: 900;
+    border-radius: 10px;
+    margin: 2rem;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 10rem;
+    height: 2rem;
+}
+
+.form-container button:hover{
+    background-color: rgb(131, 166, 246);
+}
+
+.form-container a{
+    text-decoration: none;
+    color: black;
+    margin-top: 2rem;
+}
+
+.form-container a:hover{
+    transition: 0.2s;
+    color: rgb(173, 198, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background: url(/assets/img/winter-mountains-lake-landscape-uhd-4k-wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(2px);
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+
+    height: 100vh;
+}
+
+.container{
+    background: rgb(124,233,255);
+    background: linear-gradient(90deg, rgba(124,233,255,1) 1%, rgba(255,255,255,1) 100%, rgba(107,107,237,1) 100%);
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgb(56, 56, 56);
+    height: 25rem;
+    width: 40rem;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.container a{
+    text-decoration: none;
+    color: #333;
+}
+
+.container button{
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 45px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.container form{
+    padding: 0 40px;
+}
+
+.container input{
+    border: none;
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 10px;
+    /* outline: none; tira o efeito da borda da box quando é selecionada 
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.social-icons i{
+    border: 1px solid black;
+    padding: 2px 6px;
+    border-radius: 5px;
+} */
